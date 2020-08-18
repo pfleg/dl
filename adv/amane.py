@@ -18,14 +18,9 @@ class Amane(Adv):
     coab = ['Blade','Sharena','Peony']
     conf['afflict_res.paralysis'] = 0
     share = ['Summer_Patia', 'Ranzal']
-    
-     def init(self):
-        self.s1_stance = 1
-
+   
     def s1_proc(self, e):
         self.afflics.paralysis(e.name,120, 0.97)
-
-    def s2_proc(self, e):
 
 
 if __name__ == '__main__':
